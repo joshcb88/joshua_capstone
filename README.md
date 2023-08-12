@@ -1,7 +1,7 @@
 
-**#Nashville Software School Data Analytics Capstone**
+#Nashville Software School Data Analytics Capstone
 
-**Overview**
+##Overview
 
 Music serves as a captivating medium that unites people with a shared interest. Its power lies in its ability to deeply resonate with our emotions, drawing out specific feelings depending on the genre we choose to embrace. For instance, heart-pumping genres like rock and EDM infuse us with energy and excitement through their fast tempos, while ambient melodies transport us to a more tranquil and reflective state.The profound connection between music and our emotions cannot be understated. It serves as a conduit for a plethora of feelings, from melancholy to anger, from joy to a myriad of emotions that lie somewhere in between. This realization led me to delve into the transformation of musical positivity throughout history, exploring top hit songs from 1950 to 2022.
 
