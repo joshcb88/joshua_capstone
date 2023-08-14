@@ -7,13 +7,13 @@ Music serves as a captivating medium that unites people with a shared interest. 
 
 ### **Data Question**
 
-Which decade stands out as having the most positive music?
+Which decade stands out as having the most positive music and what are possible influences that influenced a decase's positvity?
 
 ## **Methdologies:**
 
 **Data Collection**
 
-With the use of Python, I used Spotify's API to make multiple calls. Information requested was to include track name, artist, the track url, release year,the duration of the track and the tracks' audio features (danceability, tempo, energy, etc...).Defined Functions and loops were used to itterate through the requests of each playlists url, each loop returned a dataframe with the requested information. Dataframes were organized with predefined columns upon loop completion. This resulted in multiple API calls for 72 playlists, which produced over 6,300 tracks. Likewise Last.FM and Lyrics Genius API's were used for additional information. Last. FM served as a genre checker for tracks that did not return a genre. Lyrics Genius was used to gather the available lyrics once the playlist tracks had been compiled into a dataframe and organized for analysis.
+With the use of Python, I used Spotify's API to make multiple calls. Information requested was to include track name, artist, the track url, release year,the duration of the track and the tracks' audio features (danceability, tempo, energy, etc...).Defined Functions and loops were used to itterate through the requests of each playlists url, each request returned a dataframe with the requested information. Dataframes were organized with predefined columns upon loop completion. This resulted in multiple API calls for 72 playlists, which produced over 6,300 tracks. Likewise Last.FM and Musicbrainz were used for additional information. Last.FM served as a genre checker for tracks that did not return a genre. Mustisbrainz was utitlized to retrieve wheter the artist was a solo or group act as well as what the artists' gender.
 
 **Cleaning the Data**
 
