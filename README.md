@@ -20,4 +20,31 @@ With the use of Python, I used Spotify's API to make multiple calls. Information
 Data cleaning was needed for the genre and track title. Three genres were returned under the genre column. I used Excel formulas to remove uneeded characters from genre column entries, select the most frequent genre in the list as the sub genre. The inforamtion was then brought into Python to be organized into broader genres via user defined function using a loop to itterate through the sub genres. Additionally, artist names needed to be cleaned up as well. This was also done in Excel with formulas to remove unwanted characters and keep the first artist listed within the series of a column as the main artist (subsequent artist were artist featured on the track).
 
 **Analyzing the Data**
-After looking through the data, I saw that there were over 6,300 songs in across the 72 playlist the that wever retrieved from Spotify's API. It was discoevered that metrics such as tempo, key, liveliness, and key had no correlations to the valence (positivity) score. Only two metrics had (albeit weak) correlations to the valence score, danceability and energy. The analyais instead look at other possible influences on the valence score. The analysis focused on overall valence throughout time (1950-2022) and the possible influences from genre, artist type (group vs solo acts), song duration and artist gender.
+After looking through the data, I saw that there were over 6,300 songs across the 72 playlist the that were retrieved from Spotify's API. It was discoevered that metrics such as tempo, key, liveliness, and key had no correlations to the valence (positivity) score. Only two metrics had (albeit weak) correlations to the valence score, danceability and energy. The analyais instead look at other possible influences on the valence score. The analysis focused on overall valence throughout time (1950-2022) and the possible influences from genre, artist type (group vs solo acts), song duration and artist gender. Groupby and other aggregations wre used in subsetting the data to retrieve the values neede dto visualize the data.
+
+**Visualizing the Data**
+Matplolib and seaborn were utilized for line charts, scattersplots, and bar grapsh to create the primary visuals in Python. Data was then imported into PowerBi for additional line charts and bar graphs to beter show the relationship between valcnece scores and their corresponding decades. Power Bi was also used to show the dcline in valance for the most frequent genres.
+
+## **Technologies**
+Microsoft Excel
+Python: pandas, numpy, matplotlib, seaborn
+PowerBi-visuals
+
+## **Data Sources**
+- [Last.FM API](https://www.last.fm/api)
+- [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
+- [Spotify Web API](https://developer.spotify.com/documentation/web-api)
+
+
+## **Conclusion**
+Over the 72 year period of the top hits, we can see a steady decline in music positivity. Our music is not necessairly getting sadder, but it is getting lsess positive on average. The 1960's proved to be the most postivied decade overall. This could be a cause due to other exernal factors (Civil Rights Movement,Vietnam War, etc... ). From the analysis we can conclude:
+
+-Reggae was the most positive genre on average
+
+-Co-ed and Group acts faired better on average in regards to artist gender/artist type
+
+-Shorter songs appear to have higher valence scores 
+
+-The most frequent/popular genres are not the most positive
+
+-The most positive decade in music was the 1960's
