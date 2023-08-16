@@ -1,5 +1,5 @@
 
-# Capstone: Musici positivity analysis
+# Capstone: Music Positivity Analysis
 
 ### **Overview**
 
@@ -37,6 +37,8 @@ PowerBi-visuals
 - [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
 - [Spotify Web API](https://developer.spotify.com/documentation/web-api)
 
+## Presentation link: 
+https://www.canva.com/design/DAFrE1Q6tQg/qBjzf98W6a-N4m_nTuvVJQ/view?utm_content=DAFrE1Q6tQg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 ## **Conclusion**
 Over the 72 year period of the top hits, we can see a steady decline in music positivity. Our music is not necessairly getting sadder, but it is getting less positive on average. The 1960's proved to be the most positive decade overall. This could be due to historical factors at that time (Civil Rights Movement,Vietnam War, etc... ).
