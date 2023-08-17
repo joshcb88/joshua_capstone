@@ -1,6 +1,12 @@
 
 # Capstone: Music Positivity Analysis
 
+## Presentation link: 
+https://www.canva.com/design/DAFrE1Q6tQg/qBjzf98W6a-N4m_nTuvVJQ/view?utm_content=DAFrE1Q6tQg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+## Playlist link: 
+https://open.spotify.com/playlist/2mfpY2nytL2xpQtci7y4Se?si=2dc1019cdfa54a26
+
 ### **Overview**
 
 Music serves as a captivating medium that unites people with a shared interest. Its power lies in its ability to deeply resonate with our emotions, drawing out specific feelings depending on the genre we choose to embrace. For instance, heart-pumping genres like rock and EDM infuse us with energy and excitement through their fast tempos, while ambient melodies transport us to a more tranquil and reflective state.The profound connection between music and our emotions cannot be understated. It serves as a conduit for a plethora of feelings, from melancholy to anger, from joy to a myriad of emotions that lie somewhere in between. As a lover of music and someone who listens to music exclusviely onf Spotify to fit various moods, this concept intrigued me. This realization led me to delve into the transformation of musical positivity throughout history, exploring top hits from 1950 to 2022.
@@ -36,9 +42,6 @@ PowerBi-visuals
 - [Last.FM API](https://www.last.fm/api)
 - [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
 - [Spotify Web API](https://developer.spotify.com/documentation/web-api)
-
-## Presentation link: 
-https://www.canva.com/design/DAFrE1Q6tQg/qBjzf98W6a-N4m_nTuvVJQ/view?utm_content=DAFrE1Q6tQg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 ## **Conclusion**
 Over the 72 year period of the top hits, we can see a steady decline in music positivity. Our music is not necessairly getting sadder, but it is getting less positive on average. The 1960's proved to be the most positive decade overall. This could be due to historical factors at that time (Civil Rights Movement,Vietnam War, etc... ).
