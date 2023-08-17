@@ -35,8 +35,10 @@ Matplolib and seaborn were utilized for line charts, scattersplots, and bar grap
 
 ## **Technologies**
 Microsoft Excel
+
 Python: pandas, numpy, matplotlib, seaborn
-PowerBi-visuals
+
+PowerBi
 
 ## **Data Sources**
 - [Last.FM API](https://www.last.fm/api)
